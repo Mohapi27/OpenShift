@@ -7,7 +7,7 @@ import org.apache.struts2.convention.annotation.Namespaces;
 import org.apache.struts2.convention.annotation.Result;
 
 
-@Action(value="employee",results={@Result(name ="SUCCESS",location ="/employeePage.jsp")})
+@Action(value="employeePage",results={@Result(name ="SUCCESS",location ="/employeePage.jsp")})
 @Namespaces(value={ @Namespace("/User"),@Namespace("/")})
 public class EmployeeAction {
 	
