@@ -5,7 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/StrutsmvcDB</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/StrutsmvcDB?createDatabaseIfNotExist=true</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">C@ss@no27</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
@@ -19,6 +19,6 @@
         <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
         
         
-        <mapping class="com.accenture.strutsmvc.model.Employee"/>
+        <mapping class="com.openshift.mohapi.model.Employee"/>
     </session-factory>
 </hibernate-configuration>
