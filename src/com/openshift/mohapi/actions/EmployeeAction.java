@@ -51,7 +51,7 @@ public class EmployeeAction {
 	
 	public String execute() throws Exception
 	{
-		String retValue = "";
+		String retValue = "SUCCESS";
 		return retValue;
 	}
 	public void add(){
